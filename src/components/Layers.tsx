@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayersControl } from 'react-leaflet';
+import { LayersControl, useMapEvents } from 'react-leaflet';
 import { Color, Mushroom, Spots } from '../api';
 import { getColorName, getSpotName, generateLayer } from './Utils';
 
@@ -24,6 +24,14 @@ const Layers = ({mushrooms}: { mushrooms: Mushroom[] }) => {
     }
 
     initLayer();
+    useMapEvents({
+        layeradd: (e) => {
+            //Catch event to add every layer needed
+        },
+        layerremove: (e) => {
+            //Catch event to remove every layer needed
+        }
+    });
 
     return (
         <>
@@ -34,7 +42,7 @@ const Layers = ({mushrooms}: { mushrooms: Mushroom[] }) => {
                 {colorLayer}
             </LayersControl>
         </>
-    )
+    );
 }
 
 export default Layers;

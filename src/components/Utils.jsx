@@ -24,8 +24,8 @@ const getRandomImage = () => {
     return images[(Math.random() * images.length) | 0];
 }
 
-const generateLayer = (filter, getName, mushroom, mushrooms, layer) => {
-    return  <LayersControl.Overlay name={getName(mushroom[filter])} key={layer.length} checked>
+const generateLayer = (filter, getName, mushroom, mushrooms, layer, checked = true) => {
+    return  <LayersControl.Overlay name={getName(mushroom[filter])} key={layer.length} checked={checked}>
                 <LayerGroup>
                     {mushrooms.filter((el) => el[filter] === mushroom[filter]).map((el, index) => {                        
                         return  <Marker key={index} position={el.latlng}>
