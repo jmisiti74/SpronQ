@@ -34,7 +34,8 @@ Run the project using `npm start` or `npm run start`.
 
 1. Add a real server with a database and added more mushrooms over the netherlands.
 2. Use GraphQL as it has a good potential with cache and this is a good point for this type of datas.
-3. Style the map and searching tools.
+3. Add S3 server to handle images instead of having links in the code.
+4. Style the map and searching tools.
 
 ## Available Scripts
 
