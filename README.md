@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Mushroom Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple map showing some mushrooms on a map.
+It's using OpenStreetMap, React v18.1, React Leaflet
+
+## Remarks
+
+In this project i had trouble because of my first choice (React Leaflet).\
+I realized it was hard to custome events without modifying the library itself.\
+So in this project you may find some unfinished works left here with the goal to show how\
+it would have been done if it were easyer.\
+
+Of course everything would have been possible with more work but\
+i think it's enough to show how i work with front-end as a more back-end developper.\
 
 ## Available Scripts
 
@@ -17,7 +28,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tests are fake and designed to be read only
 
 ### `npm run build`
 
@@ -27,20 +38,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to start the project
 
-### `npm run eject`
+### First step
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone the project using git or simply download it.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Second step
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Open a terminal at the base of the project.
+Install dependency using `npm i` or `npm install`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Third step
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run the project using `npm start` or `npm run start`.
