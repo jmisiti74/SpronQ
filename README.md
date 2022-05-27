@@ -6,12 +6,14 @@ It's using OpenStreetMap, React v18.1, React Leaflet
 ## Remarks
 
 In this project i had trouble because of my first choice (React Leaflet).\
-I realized it was hard to custome events without modifying the library itself.\
+I realized it was hard to customize events without modifying the library itself.\
 So in this project you may find some unfinished works left here with the goal to show how\
-it would have been done if it were easyer.\
+it would have been done.
 
 Of course everything would have been possible with more work but\
-i think it's enough to show how i work with front-end as a more back-end developper.\
+i think it's enough to show how i work with front-end as a more back-end developper.
+
+If you want to see all my other projects you can watch my other [GH profile (jmisiti42)](https://github.com/jmisiti42?tab=repositories) (I lost the authenticator for it).
 
 ## How to start the project
 
