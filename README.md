@@ -13,6 +13,27 @@ it would have been done if it were easyer.\
 Of course everything would have been possible with more work but\
 i think it's enough to show how i work with front-end as a more back-end developper.\
 
+## How to start the project
+
+### First step
+
+Clone the project using git or simply download it.
+
+### Second step
+
+Open a terminal at the base of the project.
+Install dependency using `npm i` or `npm install`.
+
+### Third step
+
+Run the project using `npm start` or `npm run start`.
+
+## To-Do (What i would have done with more time)
+
+1. Add a real server with a database and added more mushrooms over the netherlands.
+2. Use GraphQL as it has a good potential with cache and this is a good point for this type of datas.
+3. Style the map and searching tools.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,7 +49,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-Tests are fake and designed to be read only
+Tests are fake and designed to be read only.
 
 ### `npm run build`
 
@@ -37,18 +58,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-## How to start the project
-
-### First step
-
-Clone the project using git or simply download it.
-
-### Second step
-
-Open a terminal at the base of the project.
-Install dependency using `npm i` or `npm install`.
-
-### Third step
-
-Run the project using `npm start` or `npm run start`.
